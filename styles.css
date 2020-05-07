@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+	margin: 0; /* odstęp na zewnątrz elementu*/
+	padding: 0; /* odstęp wewnątrz elementu*/
+	box-sizing: boarder-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background: #fff  ;
+	font-size: 13px;
+	line-height: 22px;
+	color: #555555;
+	font-weight: 500;
+}
+/*fonts*/
+.boldname{
+	font-weight: 700;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.boldsurname{
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.font_left{
+	font-weight: 500;
+	font-size: 13px;
+}
+
+.font_left_skills{
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: -0.082mm;
+}
+
+.font_date{
+	font-weight: 500;
+	font-size: 13px;
+	color: #707b7c 
+}
+
+.bold{
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.bold_font_left{
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.semi_bold{
+	font-weight: 500;
+	font-size: 13px;
+	
+}
+
+.cv{
+    height: 297mm;
+    width: 210mm;
+	display: flex;
+}
+/*linie dzielące*/
+.cv .cv_item{
+  padding: 4px;
+  border-bottom: 3px solid #707b7c;
+}
+/*usunięcie ostatnich linii*/
+.cv .cv_left .cv_item:last-child,
+.cv .cv_right .cv_item:last-child {
+  border-bottom: 0px;
+}
+
+.cv .cv_left{
+	width: 74mm;
+	background: #d0ece7 ;
+    color:  #424242 ;
+	margin: 5mm;
+    padding: 5mm 5mm 5mm 5mm;
+}
+
+.cv .cv_left .cv_photo{
+    margin: -7mm 0mm 0mm 3.5mm;
+    width: 60%;
+}
+
+.cv .title {
+  margin-bottom: 17px;
+}
+.cv .minienter {
+  margin-bottom: 6px;
+}
+
+.cv .cv_right{
+	width: 136;
+	color:  #424242 ;
+    padding: 3mm 5mm 0mm 0mm;
+
+}
+
+.cv .cv_right .cv_footer{
+	line-height: 9px;
+	letter-spacing: -0.07mm;
+    color: #727272;
+    font-size: 7px;
+}
+
+
+
