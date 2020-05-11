@@ -2,7 +2,6 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -13,8 +12,6 @@
 ## General info
 My resume created by html.
 
-## Screenshots
-![Screenshot](./img/cv.jpg)
 
 ## Technologies
 * HTML
@@ -30,11 +27,10 @@ NotePad++
 * Courses
 * Projects
 * Skills
-
-To do-list:
 * About me
+
 ## Status
-Project is:  _in process_
+Project is:  _finished_
 
 ## Inspiration
 https://www.youtube.com/watch?v=zAVhHHS_IH4
