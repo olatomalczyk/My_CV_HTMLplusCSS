@@ -6,6 +6,7 @@
 	box-sizing: boarder-box;
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
+
 }
 
 body{
@@ -20,12 +21,14 @@ body{
 	font-weight: 700;
 	font-size: 35px;
 	text-transform: uppercase;
+	text-align: justify;  /* wyjustowany */
 }
 .boldsurname{
 	font-weight: 700;
 	font-size: 36px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+		text-align: justify;  /* wyjustowany */
 }
 
 .font_left{
@@ -37,13 +40,18 @@ body{
 	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: -0.082mm;
+	text-align: justify;  /* wyjustowany */
+	
 }
+
+
 
 .font_date{
 	font-weight: 500;
 	font-size: 13px;
 	color: #707b7c 
 }
+
 
 .bold{
 	font-weight: 700;
@@ -54,6 +62,7 @@ body{
 .bold_font_left{
 	font-weight: 700;
 	font-size: 13px;
+	
 }
 
 .semi_bold{
@@ -69,7 +78,7 @@ body{
 }
 /*linie dzielące*/
 .cv .cv_item{
-  padding: 4px;
+  padding: 3px;
   border-bottom: 3px solid #707b7c;
 }
 /*usunięcie ostatnich linii*/
@@ -87,12 +96,12 @@ body{
 }
 
 .cv .cv_left .cv_photo{
-    margin: -7mm 0mm 0mm 3.5mm;
-    width: 60%;
+    margin: -9mm 0mm 0mm 3.5mm;
+    width: 57%;
 }
 
 .cv .title {
-  margin-bottom: 17px;
+  margin-bottom: 13px;
 }
 .cv .minienter {
   margin-bottom: 6px;
@@ -101,15 +110,15 @@ body{
 .cv .cv_right{
 	width: 136;
 	color:  #424242 ;
-    padding: 3mm 5mm 0mm 0mm;
+    padding: 4mm 5mm 0mm 0mm;
 
 }
 
 .cv .cv_right .cv_footer{
-	line-height: 9px;
-	letter-spacing: -0.07mm;
+	line-height: 15px;
     color: #727272;
-    font-size: 7px;
+    font-size: 9px;
+	text-align: justify;  /* wyjustowany */
 }
 
 

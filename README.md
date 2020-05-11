@@ -32,7 +32,7 @@ NotePad++
 * Skills
 
 To do-list:
-*About me
+* About me
 ## Status
 Project is:  _in process_
 
