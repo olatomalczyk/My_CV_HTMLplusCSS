@@ -40,7 +40,7 @@ body{
 	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: -0.082mm;
-	text-align: justify;  /* wyjustowany */
+	text-align: justify;   /*wyjustowany */
 	
 }
 
@@ -49,7 +49,8 @@ body{
 .font_date{
 	font-weight: 500;
 	font-size: 13px;
-	color: #707b7c 
+	color: #707b7c ;
+	line-height: 21px;
 }
 
 
@@ -104,7 +105,7 @@ body{
   margin-bottom: 13px;
 }
 .cv .minienter {
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .cv .cv_right{
@@ -115,10 +116,11 @@ body{
 }
 
 .cv .cv_right .cv_footer{
-	line-height: 15px;
+	line-height: 10px;
     color: #727272;
-    font-size: 9px;
+    font-size: 8px;
 	text-align: justify;  /* wyjustowany */
+	letter-spacing: 0.037mm;
 }
 
 
