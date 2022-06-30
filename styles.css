@@ -5,14 +5,14 @@
 	padding: 0; /* odstęp wewnątrz elementu*/
 	box-sizing: boarder-box;
 	list-style: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Calibri;
 
 }
 
 body{
 	background: #fff  ;
 	font-size: 13px;
-	line-height: 22px;
+	line-height: 21.5px;
 	color: #555555;
 	font-weight: 500;
 }
@@ -20,13 +20,14 @@ body{
 .boldname{
 	font-weight: 700;
 	font-size: 35px;
+	letter-spacing: 1.1px;
 	text-transform: uppercase;
 	text-align: justify;  /* wyjustowany */
 }
 .boldsurname{
 	font-weight: 700;
 	font-size: 36px;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 	text-transform: uppercase;
 		text-align: justify;  /* wyjustowany */
 }
@@ -80,7 +81,7 @@ body{
 /*linie dzielące*/
 .cv .cv_item{
   padding: 3px;
-  border-bottom: 3px solid #707b7c;
+  border-bottom: 2px solid #707b7c;
 }
 /*usunięcie ostatnich linii*/
 .cv .cv_left .cv_item:last-child,
@@ -92,26 +93,32 @@ body{
 	width: 74mm;
 	background: #d0ece7 ;
     color:  #424242 ;
-	margin: 5mm;
-    padding: 5mm 5mm 5mm 5mm;
+	margin: 4mm;
+    padding: 4mm 4mm 4mm 4mm;
 }
 
 .cv .cv_left .cv_photo{
-    margin: -9mm 0mm 0mm 5mm;
+    margin: 0mm 0mm 0mm 0.6mm;
+    width: 57%;
+}
+
+.cv .cv_left .cv_phone{
+	width: 74mm;
+    margin: 0mm 0mm 0mm 0.6mm;
     width: 57%;
 }
 
 .cv .title {
-  margin-bottom: 13px;
+  margin-bottom: 9px;
 }
 .cv .minienter {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .cv .cv_right{
 	width: 136;
 	color:  #424242 ;
-    padding: 4mm 5mm 0mm 0mm;
+    padding: 2.5mm 4mm 0mm 0mm;
 
 }
 
