@@ -123,11 +123,11 @@ body{
 }
 
 .cv .cv_right .cv_footer{
-	line-height: 10px;
+	line-height: 8px;
     color: #727272;
     font-size: 8px;
 	text-align: justify;  /* wyjustowany */
-	letter-spacing: 0.037mm;
+	letter-spacing: 0.030mm;
 }
 
 
